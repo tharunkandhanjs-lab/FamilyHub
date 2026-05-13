@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f5f5f7;
+  --foreground: #1c1c1e;
+  --card: #ffffff;
+  --card-foreground: #1c1c1e;
+  --popover: #ffffff;
+  --popover-foreground: #1c1c1e;
+  --primary: #22c55e;
+  --primary-foreground: #ffffff;
+  --secondary: #f2f2f7;
+  --secondary-foreground: #1c1c1e;
+  --muted: #f2f2f7;
+  --muted-foreground: #8e8e93;
+  --accent: #f2f2f7;
+  --accent-foreground: #1c1c1e;
+  --destructive: #ff3b30;
+  --destructive-foreground: #ffffff;
+  --border: #e5e5ea;
+  --input: #e5e5ea;
+  --ring: #22c55e;
+  --landing: #faf9f6;
+  --chart-1: #22c55e;
+  --chart-2: #16a34a;
+  --chart-3: #059669;
+  --chart-4: #4ade80;
+  --chart-5: #86efac;
+  --sidebar: #f5f5f7;
+  --sidebar-foreground: #1c1c1e;
+  --sidebar-primary: #22c55e;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #e5e5ea;
+  --sidebar-accent-foreground: #1c1c1e;
+  --sidebar-border: #e5e5ea;
+  --sidebar-ring: #22c55e;
+  --font-sans: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-mono: SF Mono, Menlo, monospace;
+  --radius: 12px;
+  --shadow-x: 0px;
+  --shadow-y: 4px;
+  --shadow-blur: 24px;
+  --shadow-spread: 0px;
+  --shadow-opacity: 0.05;
+  --shadow-color: #000000;
+  --shadow-2xs: 0px 4px 24px 0px hsl(0 0% 0% / 0.03);
+  --shadow-xs: 0px 4px 24px 0px hsl(0 0% 0% / 0.03);
+  --shadow-sm:
+    0px 4px 24px 0px hsl(0 0% 0% / 0.05), 0px 1px 2px -1px hsl(0 0% 0% / 0.05);
+  --shadow:
+    0px 4px 24px 0px hsl(0 0% 0% / 0.05), 0px 1px 2px -1px hsl(0 0% 0% / 0.05);
+  --shadow-md:
+    0px 4px 24px 0px hsl(0 0% 0% / 0.05), 0px 2px 4px -1px hsl(0 0% 0% / 0.05);
+  --shadow-lg:
+    0px 4px 24px 0px hsl(0 0% 0% / 0.05), 0px 4px 6px -1px hsl(0 0% 0% / 0.05);
+  --shadow-xl:
+    0px 4px 24px 0px hsl(0 0% 0% / 0.05), 0px 8px 10px -1px hsl(0 0% 0% / 0.05);
+  --shadow-2xl: 0px 4px 24px 0px hsl(0 0% 0% / 0.13);
+  --tracking-normal: -0.011em;
+  --spacing: 0.25rem;
+}
+
+.dark {
+  --background: #0a0a0a;
+  --foreground: #f5f5f7;
+  --card: #1a1a1a;
+  --card-foreground: #f5f5f7;
+  --popover: #1a1a1a;
+  --popover-foreground: #f5f5f7;
+  --primary: #22c55e;
+  --primary-foreground: #ffffff;
+  --secondary: #2a2a2a;
+  --secondary-foreground: #f5f5f7;
+  --muted: #2a2a2a;
+  --muted-foreground: #8e8e93;
+  --accent: #2a2a2a;
+  --accent-foreground: #f5f5f7;
+  --destructive: #ff453a;
+  --destructive-foreground: #ffffff;
+  --border: #2a2a2a;
+  --input: #2a2a2a;
+  --ring: #22c55e;
+  --landing: #0a0a0a;
+  --chart-1: #22c55e;
+  --chart-2: #16a34a;
+  --chart-3: #34d399;
+  --chart-4: #4ade80;
+  --chart-5: #86efac;
+  --sidebar: #0a0a0a;
+  --sidebar-foreground: #f5f5f7;
+  --sidebar-primary: #22c55e;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #2a2a2a;
+  --sidebar-accent-foreground: #f5f5f7;
+  --sidebar-border: #2a2a2a;
+  --sidebar-ring: #22c55e;
+  --font-sans: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-mono: SF Mono, Menlo, monospace;
+  --radius: 12px;
+  --shadow-x: 0px;
+  --shadow-y: 8px;
+  --shadow-blur: 32px;
+  --shadow-spread: 0px;
+  --shadow-opacity: 0.4;
+  --shadow-color: #000000;
+  --shadow-2xs: 0px 8px 32px 0px hsl(0 0% 0% / 0.2);
+  --shadow-xs: 0px 8px 32px 0px hsl(0 0% 0% / 0.2);
+  --shadow-sm:
+    0px 8px 32px 0px hsl(0 0% 0% / 0.4), 0px 1px 2px -1px hsl(0 0% 0% / 0.4);
+  --shadow:
+    0px 8px 32px 0px hsl(0 0% 0% / 0.4), 0px 1px 2px -1px hsl(0 0% 0% / 0.4);
+  --shadow-md:
+    0px 8px 32px 0px hsl(0 0% 0% / 0.4), 0px 2px 4px -1px hsl(0 0% 0% / 0.4);
+  --shadow-lg:
+    0px 8px 32px 0px hsl(0 0% 0% / 0.4), 0px 4px 6px -1px hsl(0 0% 0% / 0.4);
+  --shadow-xl:
+    0px 8px 32px 0px hsl(0 0% 0% / 0.4), 0px 8px 10px -1px hsl(0 0% 0% / 0.4);
+  --shadow-2xl: 0px 8px 32px 0px hsl(0 0% 0% / 1);
+}
+
+body {
+  letter-spacing: var(--tracking-normal);
+}
